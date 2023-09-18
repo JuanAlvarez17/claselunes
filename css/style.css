@@ -63,5 +63,54 @@ color:orange;
 }
 span{
 color: blue;
+}
 
+#title_box{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    background-color: aqua;
+    text-align: center;
+    padding-left: 20px;
+    margin: 50px;
+    border: 1px dotted #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px blue;
+    -webkit-box-shadow: 21px 0px 74px 65px rgb(209, 57, 57);
+-moz-box-shadow: 21px 0px 74px 65px rgb(209, 64, 64);
+box-shadow: 21px 0px 74px 65px rgb(204, 38, 38);
+word-spacing: 30px;
+letter-spacing: 5px;
+font-size: 50px;
+}
+
+#box_father{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-image: url(https://us.123rf.com/450wm/boonyen/boonyen1702/boonyen170200050/72302837-futbolista-pateando-una-pelota-el-ni%C3%B1o-jugando-f%C3%BAtbol-ilustraci%C3%B3n-de-dibujos-animados-de.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Media querys entre 800 y 1280 */
+@media (min-width: 800px) and (max-width: 1280px) {
+    body{
+        background-color: red;
+    }
+    h1{
+        text-align: center;
+    }   
+}
+
+/* Media querys entre 799 para abajo */
+@media (max-width: 799px){
+body{
+    background-image: url(https://us.123rf.com/450wm/boonyen/boonyen1702/boonyen170200050/72302837-futbolista-pateando-una-pelota-el-ni%C3%B1o-jugando-f%C3%BAtbol-ilustraci%C3%B3n-de-dibujos-animados-de.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 }
