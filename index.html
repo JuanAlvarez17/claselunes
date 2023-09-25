@@ -5,17 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style_login.css">
 </head>
 <body>
-    <ul>
-        <li><a href="html/tablas.html">IR A TABLAS</a></li>
-        <li><a href="html/formularios.html">IR A FORMULARIOS</a></li>
-        <li><a href="html/texto.html">IR A TEXTO</a></li>
-        <li><a href="html/semanticas.html">IR A SEMANTICAS</a></li>
-        <li><a href="html/agrupacion.html">IR A AGRUPACION</a></li>
-        <li><a href="html/multimedia.html">IR A MULTIMEDIA</a></li>
-        <li><a href="html/estilos.html">IR A ESTILOS</a></li>
-        <li><a href="html/flexbox.html">IR A FLEXBOX</a></li>
-    </ul>
+<div class="background"></div>
+<div class="centering">
+    <form action="" class="my_form">
+        <div class="login_welcome">
+            <!-- .login_welcome>img.login+h1{INICIAR SESION} -->
+            <img src="https://img.freepik.com/vector-gratis/lindo-astronauta-montando-cohete-agitando-mano-icono-dibujos-animados-ilustracion-concepto-icono-tecnologia-ciencia_138676-2130.jpg" alt="" class="login">
+            <h1>INICIAR SESION</h1>
+        </div>
+        <!-- .text_field>label{Email}+input#email+img -->
+        <div class="text_field">
+            <label for="">Email</label>
+            <input type="email" id="email" name="email" aria-label="Email" placeholder="Ingrese su correo electronico" required>
+            <img src="" alt="">
+        </div>
+        <div class="text_field">
+            <label for="">Password</label>
+            <input type="text" id="password" name="password" placeholder="Ingrese su credencial"required>
+            <img src="" alt="">        
+        </div>
+        <input type="submit" class="my_form_button" value="Login">
+        <div class="my_form_actions">
+            <div class="my_form">
+                <span>Olvidaste tu contraseña</span>
+                <a href="#" title="Recuperar Contraseña">Recuperar Contraseña</a>
+                </div>
+                <div class="my_form_singup">
+                    <a href="#" title="Create Acount">Crear Cuenta</a>
+                </div>
+            </div>
+    </form>
+</div>
 </body>
 </html>
